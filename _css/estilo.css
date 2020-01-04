@@ -12,7 +12,7 @@ body {
 }
 
 div#interface {
-    width: 60%; /**900%*/
+    width: 900px;
     background-color: #ffffff;
     margin: -20px auto 0px auto;
     box-shadow: 0px 0px 10px rgba(0,0,0,.5);
@@ -34,9 +34,11 @@ a:hover {
 }
 
 header#cabecalho img#icone {
-    position: absolute;
-    left: 780px;
-    top: 40px;
+    /*position: absolute;*/
+    left: 800px;
+    top: 70px;
+    margin-top: -50px;
+    margin-left: 750px;
 }
 
 header#cabecalho {
@@ -54,13 +56,13 @@ header#cabecalho h1 {
     margin-bottom: 0px;
 }
 
-    header#cabecalho h2 {
-        font-family: 'Titillium Web', sans-serif;
-        color: #888888;
-        font-size: 15pt;
-        padding: 0px;
-        margin-top: 0px;
-    }
+header#cabecalho h2 {
+    font-family: 'Titillium Web', sans-serif;
+    color: #888888;
+    font-size: 15pt;
+    padding: 0px;
+    margin-top: 0px;
+}
 
 /* Formatação de imagens com legendas */
 
@@ -96,6 +98,8 @@ figure.foto-legenda:hover figcaption {
 /* Formata��o do Menu */
 nav#menu {
     display: block;
+    margin-top: -250px;
+    margin-left: 200px;
 }
 
 nav#menu ul {
@@ -103,7 +107,7 @@ nav#menu ul {
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    left: 300px;
+    margin-right: -200px;
 }
 
 nav#menu li {
@@ -141,7 +145,7 @@ section#corpo {
     width: 500px;
     float: left;
     border-right: 1px solid #606060;
-    padding-right: 15px;
+    padding-right: 20px;
 }
 
 article#noticia-principal h2 {
